@@ -6,7 +6,7 @@ const app = express();
 const port = 3100;
 
 app.get('/', (req, res) => {
-    res.send('Hello World! This is my first Node.js app');
+    res.render('index', { title: 'My Express App', message: 'Hello' });
 });
 
 app.listen(port, () => {
