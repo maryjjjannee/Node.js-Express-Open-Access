@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "productTitle": "Lipstick 01",
+      "productDescription": "Red Rosy Mauve",
+      "productPrice": 399
+    },
+    {
+      "id": 1,
+      "productTitle": "Lipstick 02",
+      "productDescription": "NudePink",
+      "productPrice": 399
+    },
+    {
+      "id": 2,
+      "productTitle": "Lipstick 03",
+      "productDescription": "Orange Marmalade",
+      "productPrice": 399
+    },
+    {
+      "id": 3,
+      "productTitle": "Lipstick 04",
+      "productDescription": "Natural Clear",
+      "productPrice": 399
+    }
+  ]
+}
