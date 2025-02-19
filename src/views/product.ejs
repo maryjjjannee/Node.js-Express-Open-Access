@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products List</title>
+    <title>Product Details</title>
 </head>
 
 <body>
-    <h1>Products List</h1>
-    <% if (typeof products !== 'undefined' && products.length > 0) { %>
-        <% products.forEach((product) => { %>
+    <h1>Product Details</h1>
             <h4>
                 <a href="/products/<%= product.id %>"><%= product.productTitle %></a>
             </h4>
