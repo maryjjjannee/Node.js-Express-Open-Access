@@ -15,7 +15,14 @@ app.set("views", path.join(__dirname, "src/views"));
 app.set("view engine", "ejs");
 
 productRouter.route("/").get((req, res) => {
-  res.render("products");
+  res.render("products",{
+    products: [
+      {productTitle: "Lipstick 01", productDescription: "Red Rosy Mauve", productPrice: 399},
+      {productTitle: "Lipstick 02", productDescription: "NudePink", productPrice: 399},
+      {productTitle: "Lipstick 03", productDescription: "Orange Marmalade", productPrice: 399},
+      {productTitle: "Lipstick 04", productDescription: "Natural Clear", productPrice: 399},
+    ],
+  });
 });
 
 productRouter.route("/").get((req, res) => {
